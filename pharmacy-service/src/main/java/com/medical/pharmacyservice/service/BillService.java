@@ -28,6 +28,6 @@ public class BillService {
 
     private String fallbackGetProduct(Exception ex)
     {
-        return "Warehouse service khong phan hoi.";
+        return "Không thể kết nối kho tổng. Hệ thống sẽ sử dụng dữ liệu tồn kho cục bộ để tiếp tục giao dịch\n";
     }
 }
